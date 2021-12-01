@@ -7,6 +7,7 @@ import createAppDefinitionApi, { ContentfulAppDefinitionAPI } from '../create-ap
 import { SetOptional, Except } from 'type-fest'
 import { FieldType } from './field-type'
 import { ParameterDefinition } from './widget-parameters'
+import 'regenerator-runtime/runtime'
 
 export interface NavigationItem {
   name: string
